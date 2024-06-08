@@ -1,9 +1,13 @@
 import React from 'react'
+import Hero from '@/components/Hero'
+import Image from "next/image"
 
-const page = () => {
+const Home = () => {
   return (
-    <div>page</div>
+   <main className='overflow-hidden'>
+    <Hero/>
+   </main>
   )
 }
 
-export default page
+export default Home
